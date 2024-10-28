@@ -279,15 +279,15 @@ header h1{
 }
 
 .select-tip {
-    gap: 10px;
+    gap: 0.625rem;
 }
 
 .buttons {
     display: grid;
     grid-template-columns: repeat(3, 1fr);
     grid-template-rows: repeat(2, 1fr);
-    padding-block: 10px;
-    gap: 1rem 14px;
+    padding-block: 0.625rem;
+    gap: 1rem 0.875rem;
 }
 
 .custom-tip {
@@ -334,7 +334,7 @@ header h1{
 
 .reset {
     border: none;
-    padding: 15px 3px 13px 0;
+    padding: 0.9375rem 0.1875rem 0.8125rem 0;
     border-radius: var(--radius-4);
     border: none;
 
@@ -394,8 +394,8 @@ header h1{
     }
 
     main {
-        padding: 40px 0 0 0;
-        gap: 30px;
+        padding: 2.5rem 0 0 0;
+        gap: 1.875rem;
     }
 
     .calculator {
@@ -405,7 +405,7 @@ header h1{
     }
 
     .keyboard {
-        padding: 3px 8px 6px;
+        padding: 0.1875rem 0.5rem 0.375rem;
     }
 
     .form {
